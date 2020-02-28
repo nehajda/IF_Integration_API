@@ -7,7 +7,7 @@ mb:
 
 #Message Broker JMS Queue with AcitveMQ Properties
     jms:
-      brokerURL: "failover://tcp://in2npdvjdacon02:61616"
+      brokerURL: "failover://tcp://IN2NPDVDCSSV12:61616"
       user: "admin"
       password-secure: "admin"
       maxConnections: "10"
