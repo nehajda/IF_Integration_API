@@ -40,7 +40,7 @@ outboundEndpoints:
       value: "MB-ACK"
 - name: OMS
   flow:
-    name: jmsOMSOutboundFlow
+    name: jmsOutboundFlow
     parameters:
     - name: "queue"
       value: "MB-OMS"
