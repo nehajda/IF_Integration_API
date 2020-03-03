@@ -44,7 +44,6 @@ outboundEndpoints:
     parameters:
     - name: "queue"
       value: "MB-OMS"
-  interceptorFlow: OMSCustomFlow  
 outboundMappings:
   - receiver: 'HOST.GLOBAL'
     request: '*:*:*'
