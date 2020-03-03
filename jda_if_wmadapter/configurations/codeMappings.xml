@@ -30,4 +30,21 @@
 		<code key="MEDIUM" value="M" />
 		<code key="LIGHT" value="L" />
 	</code-map>
+	<code-map name="orderTypeCode" bi-directional="true">
+		<code key="150" value="C" />
+		<code key="173" value="T" />
+	</code-map>
+	<code-map name="reasonChangeCode" bi-directional="true">
+		<code key="GS1-ORD-CHG" value="CAN-ORD-UPD" />
+	</code-map>
+	<code-map name="ReceivedStatus" bi-directional="true">
+		<code key="ON_HAND" value="A" />
+		<code key="DAMAGED" value="D" />
+		<code key="EXPIRED" value="E" />
+		<code key="ON_HOLD" value="H" />
+		<code key="QUARANTINED" value="I" />
+		<code key="ALLOCATED_FOR_ORDER" value="R" />
+		<code key="RETURNED" value="RET" />
+		<code key="BLOCKED" value="S" />
+   </code-map>
 </code-map-configuration>
