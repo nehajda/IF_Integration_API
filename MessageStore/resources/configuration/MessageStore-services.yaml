@@ -36,8 +36,8 @@ services:
     type: WMA
     replay:
       request:
-        #configType: https
-        configType: http
+        configType: https
+        #configType: http
         https:
           port: "9932"
           host: "IN2NPDVDCSSV12"
