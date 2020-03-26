@@ -33,16 +33,12 @@
 	<code-map name="orderTypeCode" bi-directional="true">
 		<code key="150" value="T" />
 		<code key="173" value="C" />
-		<code key="220" value="P" />
-	</code-map>
-	<code-map name="CountryCode" bi-directional="true">
-		<code key="US" value="USA" />
-	</code-map>
-	<code-map name="invoiceTypeCode" bi-directional="true">
-		<code key="220" value="X" />
 	</code-map>
 	<code-map name="reasonChangeCode" bi-directional="true">
 		<code key="GS1-ORD-CHG" value="CAN-ORD-UPD" />
+	</code-map>
+	<code-map name="CountryCode" bi-directional="true">
+		<code key="US" value="USA" />
 	</code-map>
 	<code-map name="ReceivedStatus" bi-directional="true">
 		<code key="ON_HAND" value="A" />
@@ -54,17 +50,4 @@
 		<code key="RETURNED" value="RET" />
 		<code key="BLOCKED" value="S" />
    </code-map>
-   <code-map name="InventoryStatusType" bi-directional="true">
-		<code key="ON_HAND" value="A" />
-		<code key="CRITICAL_HOLD" value="C" />
-		<code key="DAMAGED" value="D" />
-		<code key="EXPIRED_PRODUCT" value="E" />
-		<code key="INSPECT" value="I" />
-		<code key="PUT_ASIDE" value="P" />
-		<code key="RELEASE_SHIPPING" value="R" />
-		<code key="RETURNED" value="RET" />
-		<code key="SALVAGED" value="S" />
-		<code key="TIME_HELP" value="T" />
-		<code key="ON_HOLD" value="H" />
-	</code-map>
 </code-map-configuration>
